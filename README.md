@@ -2,7 +2,7 @@
 
 ## Start server
 ```
-go run server/main.go
+go run cmd/server/main.go
 ```
 
 ## Telnet example payload
@@ -22,8 +22,8 @@ QUIT
 
 ```
 # Using all flags
-go run client/main.go -server=localhost -port=2525 -from="john@doe.com" -to="jane@doe.com" -subject="Hello, World" - body="This is a custom test email"
+go run cmd/client/main.go -server=localhost -port=2525 -from="john@doe.com" -to="jane@doe.com" -subject="Hello, World" - body="This is a custom test email"
 
 # Using default flags
-go run client/main.go
+go run cmd/client/main.go
 ```
