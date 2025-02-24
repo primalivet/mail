@@ -1,3 +1,3 @@
-module github.com/primalivet/mail/v2
+module github.com/primalivet/mail
 
 go 1.23.6
