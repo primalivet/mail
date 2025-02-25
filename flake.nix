@@ -13,7 +13,7 @@
       in
     {
       devShells.default = with pkgs; mkShell {
-          name = "007";
+          name = "mail";
           buildInputs = [
             go
             gopls
